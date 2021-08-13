@@ -12,7 +12,7 @@ div#wrap{
       rgba(0, 133, 125, 0.5),
       rgba(13, 155, 0, 0.76)
     ),
-    url(https://user-images.githubusercontent.com/77422856/129310051-fe2ef6aa-c734-40e7-a0c1-314d2d87eef6.png);
+    url(../images/background.png);
   background-size: cover;
   background-size: cover;
   width: 100%;
@@ -56,10 +56,14 @@ main{
   text-align: center;
 }
 
+section#sec1{
+  padding: 40px 0 0 0;
+}
+
 #you {
   position: relative;
   display: inline-block;
-  margin: 1.5em 0;
+  margin: 0 0 30px 0;
   padding: 10px 5px;
   min-width: 120px;
   max-width: 60%;
@@ -67,7 +71,7 @@ main{
   font-family: Noto Sans JP;
   font-style: normal;
   font-weight: 900;
-  font-size: 15px;
+  font-size: 10px;
   background: #FFF25C;
   border-radius: 40px;
 }
@@ -75,7 +79,7 @@ main{
 #you:before {
   content: "";
   position: absolute;
-  top: 100%;
+  top: 90%;
   left: 50%;
   margin-left: -20px;
   border: 20px solid transparent;
@@ -84,15 +88,14 @@ main{
 
 #you p {
   margin: 0;
-  padding: 5px;
 }
 
 #subtitle{
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
-  line-height: 60px;
+  font-size: 25px;
+  line-height: 50px;
   /* or 150% */
 
   text-align: center;
@@ -101,11 +104,11 @@ main{
 }
 
 #title{
-  margin: 0 0 30px 0;
+  margin: 0 0 20px 0;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 70px;
+  font-size: 55px;
   line-height: 100px;
   /* identical to box height */
 
@@ -115,7 +118,7 @@ main{
 }
 
 .line{
-  padding: 20px 0 20px 0;
+  padding: 0 0 20px 0;
 }
 
 .line ul{
@@ -130,20 +133,20 @@ main{
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 50px;
   text-align: center;
   color: #529A2E;
 }
 
 .noyajirushi{
-  padding: 7px 25px;
+  padding: 0 20px;
   background-color: #fff;
 }
 
 .yajirushi{
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
 }
 
 img{
@@ -154,8 +157,8 @@ img{
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 15px;
-  line-height: 47px;
+  font-size: 10px;
+  line-height: 27px;
   /* identical to box height */
 
   text-align: center;
@@ -167,7 +170,8 @@ img{
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 12px;
+  font-size: 10px;
+  transform: scale(0.95); 
   line-height: 20px;
   /* identical to box height */
 
@@ -180,24 +184,31 @@ img{
   margin: 0 0 0 30px;
 }
 #ustep2{
-  margin: 0 16px 0 64px;
+  margin: 0 30px 0 50px;
   padding: 0 0 0 20px;
 }
 #ustep3{
-  margin: 0 0 0 30px;
+  margin: 0 0 0 20px;
+}
+
+#ustep456{
+  position: relative;
 }
 
 #ustep4{
-  margin: 0 10px 0 0;
-  padding: 0 5px 0 0;
+  position: absolute;
+  top: 0;
+  left: -8px;
 }
 #ustep5{
-  margin: 0 5px 0 0 ;
-  padding: 0 25px 0 0;
+  position: absolute;
+  top: 0;
+  left: 123px;
 }
 #ustep6{
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 273px;
 }
 
 
@@ -222,8 +233,8 @@ button.btn {
   line-height: 1.5;
   position: relative;
   display: inline-block;
-  margin: 40px 0 100px 0;
-  padding: 15px 60px;
+  margin: 30px 0 70px 0;
+  padding: 15px 20px;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -258,7 +269,7 @@ a.btn:hover {
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 30px;
   /* identical to box height */
 
@@ -280,9 +291,9 @@ a.btn:hover {
 }
 
 section#sec2{
-  width: 450px;
+  width: 350px;
   margin: 0 auto 70px auto;
-  padding: 40px 0;
+  padding: 30px 0;
   background-color: #fff;
 }
 
@@ -290,7 +301,7 @@ section#sec2{
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 35px;
+  font-size: 30px;
   line-height: 30px;
   /* identical to box height */
   text-align: center;
@@ -300,7 +311,7 @@ section#sec2{
 
 .box{
   margin: 25px auto 25px auto;
-  max-width: 80%;
+  max-width: 85%;
   background: #EFEFEF;
   border: 5px solid #C4C3C3;
 }
@@ -309,7 +320,7 @@ section#sec2{
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 59px;
   display: flex;
   align-items: center;
@@ -320,7 +331,7 @@ section#sec2{
 }
 
 .ana{
-  margin: 0 0 0 20px;
+  margin: 0 0 0 10px;
 
   font-family: Noto Sans JP;
   font-style: normal;
@@ -344,13 +355,13 @@ section#sec2{
 .ana p{
   position: absolute;
   top: 3px;
-  left: 35px;
+  left: 25px;
 }
 
 .rana p{
   position: absolute;
   top: -12px;
-  left: 80px;
+  left: 65px;
 }
 
 .inst{
@@ -358,7 +369,7 @@ section#sec2{
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 35px;
   display: flex;
   align-items: center;
@@ -369,11 +380,11 @@ section#sec2{
 }
 
 #popup{
-  margin: 60px 0 50px 0;
+  margin: 40px 0 40px 0;
   font-family: Noto Sans JP;
   font-style: normal;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 40px;
   text-align: center;
 
