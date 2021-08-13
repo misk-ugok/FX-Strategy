@@ -12,7 +12,7 @@ div#wrap{
       rgba(0, 133, 125, 0.5),
       rgba(13, 155, 0, 0.76)
     ),
-    url(https://user-images.githubusercontent.com/77422856/129310051-fe2ef6aa-c734-40e7-a0c1-314d2d87eef6.png);
+    url(../images/background.png);
   background-size: cover;
   background-size: cover;
   width: 100%;
@@ -182,17 +182,24 @@ img{
   margin: 0 0 0 120px;
 }
 
+#ustep456{
+  position: relative;
+}
+
 #ustep4{
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 90px;
 }
 #ustep5{
-  /* margin: 0 10px 0 0; */
-  padding: 0 70px 0 65px;
+  position: absolute;
+  top: 0;
+  left: 460px;
 }
 #ustep6{
-  margin: 0 0 0 0;
-  padding: 0 25px 0 0;
+  position: absolute;
+  top: 0;
+  left: 895px;
 }
 
 
