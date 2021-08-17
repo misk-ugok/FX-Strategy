@@ -148,7 +148,7 @@ section#sec1{
   background-color: #fff;
   border: solid;
   border-color: #90ee90;
-  text-align: center;
+  justify-content: center;
 }
 
 .yajirushi{
@@ -189,8 +189,7 @@ img{
   display: flex;
   flex-wrap: no-wrap;
   justify-content: center;
-  gap: 55px;
-  position: relative;
+  gap: 5px;
 }
 
 #ustep1{
@@ -209,9 +208,8 @@ img{
 #ustep456 ul{
   display: flex;
   flex-wrap: no-wrap;
-  gap: 15px;
-  position: relative;
-  left: -6px;
+  gap: 5px;
+  justify-content: center;
 }
 
 #ustep4{
