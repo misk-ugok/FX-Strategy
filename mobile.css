@@ -209,9 +209,9 @@ img{
 #ustep456 ul{
   display: flex;
   flex-wrap: no-wrap;
-  gap: 5px;
+  gap: 15px;
   position: relative;
-  left: -10px;
+  left: -6px;
 }
 
 #ustep4{
