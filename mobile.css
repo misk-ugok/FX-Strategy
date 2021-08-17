@@ -148,7 +148,7 @@ section#sec1{
   background-color: #fff;
   border: solid;
   border-color: #90ee90;
-  text-align: center;
+  justify-content: center;
 }
 
 .yajirushi{
