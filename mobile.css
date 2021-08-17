@@ -189,7 +189,8 @@ img{
   display: flex;
   flex-wrap: no-wrap;
   justify-content: center;
-  gap: 50px;
+  gap: 55px;
+  position: relative;
 }
 
 #ustep1{
