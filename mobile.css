@@ -27,14 +27,14 @@ div#wrap{
   right: 0;
   background-color: #fff;
   margin: 5px;
-  padding: 20px 15px;
+  padding: 10px 10px;
   border-radius: 5px;
 }
 
 #invite a{
   font-style: normal;
   font-weight: 900;
-  font-size: 15px;
+  font-size: 10px;
 
   color: #529A2E;
   text-decoration: none;
@@ -43,7 +43,7 @@ div#wrap{
 #invite a:hover{
   font-style: normal;
   font-weight: 900;
-  font-size: 15px;
+  font-size: 10px;
 
   color: #529A2E;
   text-decoration: none;
@@ -55,17 +55,21 @@ main{
   text-align: center;
 }
 
+section#sec1{
+  padding: 40px 0 0 0;
+}
+
 #you {
   position: relative;
   display: inline-block;
-  margin: 1.5em 0;
-  padding: 20px 10px;
+  margin: 0 0 30px 0;
+  padding: 10px 5px;
   min-width: 120px;
   max-width: 60%;
   color: #E80000;
   font-style: normal;
   font-weight: 900;
-  font-size: 45px;
+  font-size: 10px;
   background: #FFF25C;
   border-radius: 40px;
 }
@@ -73,23 +77,22 @@ main{
 #you:before {
   content: "";
   position: absolute;
-  top: 100%;
+  top: 90%;
   left: 50%;
-  margin-left: -30px;
-  border: 30px solid transparent;
-  border-top: 45px solid #FFF25C;
+  margin-left: -20px;
+  border: 20px solid transparent;
+  border-top: 30px solid #FFF25C;
 }
 
 #you p {
   margin: 0;
-  padding: 10px;
 }
 
 #subtitle{
   font-style: normal;
   font-weight: bold;
-  font-size: 60px;
-  line-height: 90px;
+  font-size: 25px;
+  line-height: 50px;
   /* or 150% */
 
   text-align: center;
@@ -98,11 +101,11 @@ main{
 }
 
 #title{
-  margin: 0 0 70px 0;
+  margin: 0 0 20px 0;
   font-style: normal;
   font-weight: 900;
-  font-size: 180px;
-  line-height: 211px;
+  font-size: 55px;
+  line-height: 100px;
   /* identical to box height */
 
   text-align: center;
@@ -111,7 +114,7 @@ main{
 }
 
 .line{
-  padding: 20px 0 20px 0;
+  padding: 0 0 20px 0;
 }
 
 .line ul{
@@ -119,7 +122,7 @@ main{
   display: flex;
   flex-wrap: no-wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 5px;
 }
 
 .line ul li{
@@ -129,15 +132,25 @@ main{
 .step{
   font-style: normal;
   font-weight: 900;
-  font-size: 50px;
-  line-height: 59px;
+  font-size: 15px;
+  line-height: 50px;
   text-align: center;
   color: #529A2E;
+
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  gap: 5px;
 }
 
 .noyajirushi{
-  padding: 20px 50px;
+  padding: 0 20px;
   background-color: #fff;
+}
+
+.yajirushi{
+  width: 30px;
+  height: 30px;
 }
 
 img{
@@ -147,8 +160,8 @@ img{
 .ustep{
   font-style: normal;
   font-weight: 900;
-  font-size: 25px;
-  line-height: 47px;
+  font-size: 10px;
+  line-height: 27px;
   /* identical to box height */
 
   text-align: center;
@@ -159,8 +172,9 @@ img{
 .lustep{
   font-style: normal;
   font-weight: 900;
-  font-size: 25px;
-  line-height: 47px;
+  font-size: 10px;
+  transform: scale(0.98); 
+  line-height: 20px;
   /* identical to box height */
 
   text-align: center;
@@ -172,19 +186,19 @@ img{
   display: flex;
   flex-wrap: no-wrap;
   justify-content: center;
-  gap: 130px;
+  gap: 50px;
 }
 
 #ustep1{
-  margin: 0 0 0 60px;
+  margin: 0 0 0 24px;
   padding: 0;
 }
 #ustep2{
-  margin: 0 0 0 150px;
+  margin: 0 0 0 21px;
   padding: 0 0 0 0;
 }
 #ustep3{
-  margin: 0 0 0 90px;
+  margin: 0;
   padding: 0;
 }
 
@@ -192,19 +206,19 @@ img{
   display: flex;
   flex-wrap: no-wrap;
   justify-content: center;
-  gap: 80px;
+  gap: 5px;
 }
 
 #ustep4{
-  margin: 0 10px 0 10px;
+  margin: 0 0 0 0;
   padding: 0;
 }
 #ustep5{
-  margin: 0 30px 0 10px;
+  margin: 0;
   padding: 0;
 }
 #ustep6{
-  margin: 0 35px 0 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -230,8 +244,8 @@ button.btn {
   line-height: 1.5;
   position: relative;
   display: inline-block;
-  margin: 70px 0 200px 0;
-  padding: 15px 60px;
+  margin: 30px 0 70px 0;
+  padding: 15px 20px;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -265,8 +279,8 @@ a.btn:hover {
 #up{
   font-style: normal;
   font-weight: 900;
-  font-size: 50px;
-  line-height: 59px;
+  font-size: 15px;
+  line-height: 30px;
   /* identical to box height */
 
   text-align: center;
@@ -277,8 +291,8 @@ a.btn:hover {
 #under{
   font-style: normal;
   font-weight: 900;
-  font-size: 80px;
-  line-height: 94px;
+  font-size: 30px;
+  line-height: 40px;
   text-align: center;
 
   color: #FFFFFF;
@@ -286,17 +300,17 @@ a.btn:hover {
 }
 
 section#sec2{
-  width: 1200px;
-  margin: 0 auto 100px auto;
-  padding: 80px 0;
+  width: 350px;
+  margin: 0 auto 70px auto;
+  padding: 30px 0;
   background-color: #fff;
 }
 
 #feature{
   font-style: normal;
   font-weight: 900;
-  font-size: 75px;
-  line-height: 88px;
+  font-size: 30px;
+  line-height: 30px;
   /* identical to box height */
   text-align: center;
 
@@ -304,8 +318,8 @@ section#sec2{
 }
 
 .box{
-  margin: 50px auto 50px auto;
-  max-width: 80%;
+  margin: 25px auto 25px auto;
+  max-width: 85%;
   background: #EFEFEF;
   border: 5px solid #C4C3C3;
 }
@@ -313,7 +327,7 @@ section#sec2{
 .header{
   font-style: normal;
   font-weight: 900;
-  font-size: 50px;
+  font-size: 13px;
   line-height: 59px;
   display: flex;
   align-items: center;
@@ -324,12 +338,12 @@ section#sec2{
 }
 
 .ana{
-  margin: 0 0 0 20px;
+  margin: 0 0 0 10px;
 
   font-style: normal;
   font-weight: 900;
-  font-size: 30px;
-  line-height: 43px;
+  font-size: 10px;
+  line-height: 30px;
   display: flex;
   align-items: center;
   
@@ -339,23 +353,28 @@ section#sec2{
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),1px 1px 0 #fff,-1px 1px 0 #fff,1px -1px 0 #fff,-1px -1px 0 #fff;
 }
 
+.ana img{
+  width: 15%;
+  height: 15%;
+}
+
 .ana p{
   position: absolute;
-  top: 20px;
-  left: 60px;
+  top: 3px;
+  left: 25px;
 }
 
 .rana p{
   position: absolute;
-  top: 15px;
-  left: 190px;
+  top: -12px;
+  left: 65px;
 }
 
 .inst{
-  margin: 30px 0 30px 20px;
+  margin: 0 0 0 5px;
   font-style: normal;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 10px;
   line-height: 35px;
   display: flex;
   align-items: center;
@@ -366,11 +385,11 @@ section#sec2{
 }
 
 #popup{
-  margin: 80px 0 100px 0;
+  margin: 40px 0 40px 0;
   font-style: normal;
   font-weight: bold;
-  font-size: 60px;
-  line-height: 87px;
+  font-size: 20px;
+  line-height: 40px;
   text-align: center;
 
   color: #FFFFFF;
@@ -420,4 +439,3 @@ section#sec2{
     transform: translateX(30px);
   }
 }
-
