@@ -138,6 +138,9 @@ main{
 .noyajirushi{
   padding: 20px 50px;
   background-color: #fff;
+  border: solid;
+  border-color: #90ee90;
+  text-align: center;
 }
 
 img{
