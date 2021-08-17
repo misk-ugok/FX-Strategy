@@ -5,6 +5,7 @@ body,
 html {
   margin: 0;
   padding: 0;
+  font-family:arial;
 }
 
 div#wrap{
@@ -26,25 +27,23 @@ div#wrap{
   right: 0;
   background-color: #fff;
   margin: 5px;
-  padding: 10px 10px;
+  padding: 20px 15px;
   border-radius: 5px;
 }
 
 #invite a{
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 10px;
+  font-size: 15px;
 
   color: #529A2E;
   text-decoration: none;
 }
 
 #invite a:hover{
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 10px;
+  font-size: 15px;
 
   color: #529A2E;
   text-decoration: none;
@@ -56,22 +55,17 @@ main{
   text-align: center;
 }
 
-section#sec1{
-  padding: 40px 0 0 0;
-}
-
 #you {
   position: relative;
   display: inline-block;
-  margin: 0 0 30px 0;
-  padding: 10px 5px;
+  margin: 1.5em 0;
+  padding: 20px 10px;
   min-width: 120px;
   max-width: 60%;
   color: #E80000;
-  font-family: Noto Sans JP;
   font-style: normal;
   font-weight: 900;
-  font-size: 10px;
+  font-size: 45px;
   background: #FFF25C;
   border-radius: 40px;
 }
@@ -79,23 +73,23 @@ section#sec1{
 #you:before {
   content: "";
   position: absolute;
-  top: 90%;
+  top: 100%;
   left: 50%;
-  margin-left: -20px;
-  border: 20px solid transparent;
-  border-top: 30px solid #FFF25C;
+  margin-left: -30px;
+  border: 30px solid transparent;
+  border-top: 45px solid #FFF25C;
 }
 
 #you p {
   margin: 0;
+  padding: 10px;
 }
 
 #subtitle{
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 25px;
-  line-height: 50px;
+  font-size: 60px;
+  line-height: 90px;
   /* or 150% */
 
   text-align: center;
@@ -104,12 +98,11 @@ section#sec1{
 }
 
 #title{
-  margin: 0 0 20px 0;
-  font-family: Roboto;
+  margin: 0 0 70px 0;
   font-style: normal;
   font-weight: 900;
-  font-size: 55px;
-  line-height: 100px;
+  font-size: 180px;
+  line-height: 211px;
   /* identical to box height */
 
   text-align: center;
@@ -118,11 +111,15 @@ section#sec1{
 }
 
 .line{
-  padding: 0 0 20px 0;
+  padding: 20px 0 20px 0;
 }
 
 .line ul{
   text-align: center;
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  gap: 30px;
 }
 
 .line ul li{
@@ -130,23 +127,17 @@ section#sec1{
 }
 
 .step{
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 15px;
-  line-height: 50px;
+  font-size: 50px;
+  line-height: 59px;
   text-align: center;
   color: #529A2E;
 }
 
 .noyajirushi{
-  padding: 0 20px;
+  padding: 20px 50px;
   background-color: #fff;
-}
-
-.yajirushi{
-  width: 30px;
-  height: 30px;
 }
 
 img{
@@ -154,11 +145,10 @@ img{
 }
 
 .ustep{
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 10px;
-  line-height: 27px;
+  font-size: 25px;
+  line-height: 47px;
   /* identical to box height */
 
   text-align: center;
@@ -167,12 +157,10 @@ img{
 }
 
 .lustep{
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 10px;
-  transform: scale(0.95); 
-  line-height: 20px;
+  font-size: 25px;
+  line-height: 47px;
   /* identical to box height */
 
   text-align: center;
@@ -180,35 +168,44 @@ img{
   color: #FFFFFF;
 }
 
-#ustep1{
-  margin: 0 0 0 30px;
-}
-#ustep2{
-  margin: 0 30px 0 50px;
-  padding: 0 0 0 20px;
-}
-#ustep3{
-  margin: 0 0 0 20px;
+#ustep123 ul{
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  gap: 130px;
 }
 
-#ustep456{
-  position: relative;
+#ustep1{
+  margin: 0 0 0 60px;
+  padding: 0;
+}
+#ustep2{
+  margin: 0 0 0 150px;
+  padding: 0 0 0 0;
+}
+#ustep3{
+  margin: 0 0 0 90px;
+  padding: 0;
+}
+
+#ustep456 ul{
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  gap: 80px;
 }
 
 #ustep4{
-  position: absolute;
-  top: 0;
-  left: -8px;
+  margin: 0 10px 0 10px;
+  padding: 0;
 }
 #ustep5{
-  position: absolute;
-  top: 0;
-  left: 123px;
+  margin: 0 30px 0 10px;
+  padding: 0;
 }
 #ustep6{
-  position: absolute;
-  top: 0;
-  left: 273px;
+  margin: 0 35px 0 0;
+  padding: 0;
 }
 
 
@@ -233,8 +230,8 @@ button.btn {
   line-height: 1.5;
   position: relative;
   display: inline-block;
-  margin: 30px 0 70px 0;
-  padding: 15px 20px;
+  margin: 70px 0 200px 0;
+  padding: 15px 60px;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -266,11 +263,10 @@ a.btn:hover {
 }
 
 #up{
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 15px;
-  line-height: 30px;
+  font-size: 50px;
+  line-height: 59px;
   /* identical to box height */
 
   text-align: center;
@@ -279,11 +275,10 @@ a.btn:hover {
 }
 
 #under{
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 80px;
+  line-height: 94px;
   text-align: center;
 
   color: #FFFFFF;
@@ -291,18 +286,17 @@ a.btn:hover {
 }
 
 section#sec2{
-  width: 350px;
-  margin: 0 auto 70px auto;
-  padding: 30px 0;
+  width: 1200px;
+  margin: 0 auto 100px auto;
+  padding: 80px 0;
   background-color: #fff;
 }
 
 #feature{
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 30px;
-  line-height: 30px;
+  font-size: 75px;
+  line-height: 88px;
   /* identical to box height */
   text-align: center;
 
@@ -310,17 +304,16 @@ section#sec2{
 }
 
 .box{
-  margin: 25px auto 25px auto;
-  max-width: 85%;
+  margin: 50px auto 50px auto;
+  max-width: 80%;
   background: #EFEFEF;
   border: 5px solid #C4C3C3;
 }
 
 .header{
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 13px;
+  font-size: 50px;
   line-height: 59px;
   display: flex;
   align-items: center;
@@ -331,13 +324,12 @@ section#sec2{
 }
 
 .ana{
-  margin: 0 0 0 10px;
+  margin: 0 0 0 20px;
 
-  font-family: Noto Sans JP;
   font-style: normal;
   font-weight: 900;
-  font-size: 10px;
-  line-height: 30px;
+  font-size: 30px;
+  line-height: 43px;
   display: flex;
   align-items: center;
   
@@ -347,29 +339,23 @@ section#sec2{
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),1px 1px 0 #fff,-1px 1px 0 #fff,1px -1px 0 #fff,-1px -1px 0 #fff;
 }
 
-.ana img{
-  width: 15%;
-  height: 15%;
-}
-
 .ana p{
   position: absolute;
-  top: 3px;
-  left: 25px;
+  top: 20px;
+  left: 60px;
 }
 
 .rana p{
   position: absolute;
-  top: -12px;
-  left: 65px;
+  top: 15px;
+  left: 190px;
 }
 
 .inst{
-  margin: 0 0 0 5px;
-  font-family: Roboto;
+  margin: 30px 0 30px 20px;
   font-style: normal;
   font-weight: 900;
-  font-size: 10px;
+  font-size: 30px;
   line-height: 35px;
   display: flex;
   align-items: center;
@@ -380,12 +366,11 @@ section#sec2{
 }
 
 #popup{
-  margin: 40px 0 40px 0;
-  font-family: Noto Sans JP;
+  margin: 80px 0 100px 0;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 40px;
+  font-size: 60px;
+  line-height: 87px;
   text-align: center;
 
   color: #FFFFFF;
@@ -435,3 +420,4 @@ section#sec2{
     transform: translateX(30px);
   }
 }
+
