@@ -5,6 +5,7 @@ body,
 html {
   margin: 0;
   padding: 0;
+  font-family:arial;
 }
 
 div#wrap{
@@ -31,7 +32,6 @@ div#wrap{
 }
 
 #invite a{
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 15px;
@@ -41,7 +41,6 @@ div#wrap{
 }
 
 #invite a:hover{
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 15px;
@@ -64,7 +63,6 @@ main{
   min-width: 120px;
   max-width: 60%;
   color: #E80000;
-  font-family: Noto Sans JP;
   font-style: normal;
   font-weight: 900;
   font-size: 45px;
@@ -88,7 +86,6 @@ main{
 }
 
 #subtitle{
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 60px;
@@ -102,7 +99,6 @@ main{
 
 #title{
   margin: 0 0 70px 0;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 180px;
@@ -120,6 +116,10 @@ main{
 
 .line ul{
   text-align: center;
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  gap: 30px;
 }
 
 .line ul li{
@@ -127,7 +127,6 @@ main{
 }
 
 .step{
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 50px;
@@ -146,7 +145,6 @@ img{
 }
 
 .ustep{
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 25px;
@@ -159,7 +157,6 @@ img{
 }
 
 .lustep{
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 25px;
@@ -171,35 +168,44 @@ img{
   color: #FFFFFF;
 }
 
-#ustep1{
-  margin: 0 50px;
-}
-#ustep2{
-  margin: 0 70px;
-  padding: 0 0 0 115px;
-}
-#ustep3{
-  margin: 0 0 0 120px;
+#ustep123 ul{
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  gap: 130px;
 }
 
-#ustep456{
-  position: relative;
+#ustep1{
+  margin: 0 0 0 60px;
+  padding: 0;
+}
+#ustep2{
+  margin: 0 0 0 150px;
+  padding: 0 0 0 0;
+}
+#ustep3{
+  margin: 0 0 0 90px;
+  padding: 0;
+}
+
+#ustep456 ul{
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  gap: 80px;
 }
 
 #ustep4{
-  position: absolute;
-  top: 0;
-  left: 90px;
+  margin: 0 10px 0 10px;
+  padding: 0;
 }
 #ustep5{
-  position: absolute;
-  top: 0;
-  left: 460px;
+  margin: 0 30px 0 10px;
+  padding: 0;
 }
 #ustep6{
-  position: absolute;
-  top: 0;
-  left: 895px;
+  margin: 0 35px 0 0;
+  padding: 0;
 }
 
 
@@ -257,7 +263,6 @@ a.btn:hover {
 }
 
 #up{
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 50px;
@@ -270,7 +275,6 @@ a.btn:hover {
 }
 
 #under{
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 80px;
@@ -289,7 +293,6 @@ section#sec2{
 }
 
 #feature{
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 75px;
@@ -308,7 +311,6 @@ section#sec2{
 }
 
 .header{
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 50px;
@@ -324,7 +326,6 @@ section#sec2{
 .ana{
   margin: 0 0 0 20px;
 
-  font-family: Noto Sans JP;
   font-style: normal;
   font-weight: 900;
   font-size: 30px;
@@ -352,7 +353,6 @@ section#sec2{
 
 .inst{
   margin: 30px 0 30px 20px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 30px;
@@ -367,7 +367,6 @@ section#sec2{
 
 #popup{
   margin: 80px 0 100px 0;
-  font-family: Noto Sans JP;
   font-style: normal;
   font-weight: bold;
   font-size: 60px;
