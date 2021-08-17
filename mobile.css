@@ -146,6 +146,9 @@ section#sec1{
 .noyajirushi{
   padding: 0 20px;
   background-color: #fff;
+  border: solid;
+  border-color: #90ee90;
+  text-align: center;
 }
 
 .yajirushi{
