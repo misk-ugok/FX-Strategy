@@ -918,6 +918,10 @@ section#sec2{
 
   position: relative;
 }
+#acd-label10 p{
+  width: 90%;
+  margin: 0 auto;
+}
 #acd-label10:after{
   /* background: #fff; */
   box-sizing: border-box;
@@ -1017,3 +1021,30 @@ section#sec2{
     transform: translateX(30px);
   }
 }
+
+@keyframes fade_in{
+  from{
+        opacity: 0;
+        transform: translatey(100px);
+  }
+  to{
+        opacity: 1;
+        transform: translatey(0);
+  }
+}
+
+
+/*アニメーション要素のスタイル*/
+.animation{
+	opacity : 0;
+	visibility: hidden;
+	transition: 1s;
+}
+/*アニメーション要素までスクロールした時のスタイル*/
+.active{
+	opacity: 1;
+	visibility: visible;
+  animation-name: fade_in;
+  animation-duration: 1.5s;
+}
+
