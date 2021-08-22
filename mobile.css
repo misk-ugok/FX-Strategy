@@ -205,26 +205,18 @@ img {
 }
 
 #ustep456 ul {
-  display: flex;
-  flex-wrap: nowrap;
-  padding: 0px;
-  justify-content: center;
-  gap: 22px;
+  gap: 30px;
 }
 
-#ustep4 {
-  margin: 0 -8px 0 0;
-  padding: 0;
-}
-#ustep5 {
-  margin: 0 12px 0 0;
-  padding: 0;
-}
+#ustep4,
+#ustep5,
 #ustep6 {
-  margin: 0 0 0 0;
-  padding: 0;
+  width: calc(100vw / 3);
 }
 
+.pc {
+  display: none;
+}
 
 *,
 *:before,
