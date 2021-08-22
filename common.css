@@ -897,65 +897,6 @@ section#sec2{
   padding: 10px;
   visibility: visible;
 }
-.acd-check{
-  display: none;
-}
-#acd-label10{
-  /* background: #333; */
-  color: #fff;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 1px;
-  padding: 20px;
-  width: 80%;
-
-
-  font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-
-  border-bottom: 1px solid #fff;
-
-  position: relative;
-}
-#acd-label10 p{
-  width: 90%;
-  margin: 0 auto;
-}
-#acd-label10:after{
-  /* background: #fff; */
-  box-sizing: border-box;
-  content: '\f067';
-  display: block;
-  font-family: "Font Awesome 5 Free";
-  height: 52px;
-  padding: 10px 20px;
-  position: absolute;
-  right: 0;
-  top: 0px;
-}
-#acd-content10{
-  /* border: 1px solid #333; */
-  color: #fff;
-  height: 0;
-  opacity: 0;
-  padding: 0 10px;
-  transition: .5s;
-  visibility: hidden;
-
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-}
-.acd-check:checked + #acd-label10:after{
-  content: '\f068';
-}
-.acd-check:checked + #acd-label10 + #acd-content10{
-  height: 80px;
-  opacity: 1;
-  padding: 10px;
-  visibility: visible;
-}
 
 #acd-content1,
 #acd-content2,
@@ -965,8 +906,7 @@ section#sec2{
 #acd-content6,
 #acd-content7,
 #acd-content8,
-#acd-content9,
-#acd-content10 {
+#acd-content9{
   font-weight: lighter;
   font-size: 20px;
   margin: 0 auto;
