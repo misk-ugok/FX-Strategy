@@ -213,17 +213,18 @@ img {
 }
 
 #ustep4 {
-  margin: 0 0 0 0;
+  margin: 0 -8px 0 0;
   padding: 0;
 }
 #ustep5 {
-  margin: 0 0 0 0;
+  margin: 0 12px 0 0;
   padding: 0;
 }
 #ustep6 {
   margin: 0 0 0 0;
   padding: 0;
 }
+
 
 *,
 *:before,
