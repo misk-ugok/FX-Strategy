@@ -206,27 +206,26 @@ img{
   padding: 0;
 }
 
-#ustep456 ul{
+
+#ustep456 ul {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: center;
-  gap: 5px;
+  padding: -2px;
+  justify-content: space-between;
 }
 
-#ustep4{
+#ustep4 {
+  margin: 0 0 0 12px;
+  padding: 0;
+}
+#ustep5 {
   margin: 0 0 0 0;
   padding: 0;
 }
-#ustep5{
-  margin: 0;
+#ustep6 {
+  margin: 0 20px 0 0;
   padding: 0;
 }
-#ustep6{
-  margin: 0;
-  padding: 0;
-}
-
-
 *,
 *:before,
 *:after {
