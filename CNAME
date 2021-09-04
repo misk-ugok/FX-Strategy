@@ -1,1 +1,2 @@
 fx-strategy.net
+$ dig your-url.com +nostats +nocomments +nocmd
